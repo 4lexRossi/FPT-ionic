@@ -12,11 +12,11 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'campaign',
+    path: 'home/campaign',
     loadChildren: () => import('./campaign/campaign.module').then( m => m.CampaignPageModule)
   },
   {
-    path: 'donate',
+    path: 'home/donate',
     loadChildren: () => import('./donate/donate.module').then( m => m.DonatePageModule)
   },
 ];

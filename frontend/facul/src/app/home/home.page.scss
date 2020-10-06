@@ -1,3 +1,9 @@
+.home-header{  
+  display: flex;
+  flex-direction: row-reverse;  
+
+  color: #ffffff;  
+}
 #container {
   text-align: center;
 
@@ -25,3 +31,4 @@
 #container a {
   text-decoration: none;
 }
+

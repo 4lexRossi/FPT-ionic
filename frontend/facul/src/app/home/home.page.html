@@ -10,11 +10,7 @@
 <ion-content [fullscreen]="true">
   <ion-list>
     <ion-content *ngFor="let user of users;" [routerLink]="user.userIndex">
-      <ion-avatar slot="start">
-        <img [src="poke.image" style="background: #f2f2f2;">
-      </ion-avatar>
-      <h2>{{ poke.name }}</h2>
-      <p>#{{ poke.index }}</p>
+ 
     </ion-content>
   </ion-list>
 </ion-content>

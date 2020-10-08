@@ -5,6 +5,7 @@ import { DatabaseService } from './../services/database.service';
   selector: 'app-home',
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss'],
+  
 })
 export class HomePage implements OnInit {
 
